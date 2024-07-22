@@ -263,6 +263,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="js/elastic-apm-rum.umd.min.js" crossorigin></script>
+    <script>
+      elasticApm.init({
+        serviceName: 'XYPERIAs Web Profile',
+        serverUrl: 'http://34.50.83.99:12012',
+      })
+    </script>
+
 </body>
 
 </html>
